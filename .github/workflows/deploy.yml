@@ -15,6 +15,6 @@ jobs:
         with:
           host: 3.7.55.203
           username: ubuntu
-          key: ${{ secrets.EC2 Server }}
+          key: ${{ secrets.EC2_Server }}
           script: |
             ~/deploy-demo.sh
